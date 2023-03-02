@@ -1,0 +1,31 @@
+﻿<Window x:Class="gr.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:gr"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn_interactive" Content="Выполнить" Click="btn_interactive_Click" HorizontalAlignment="Left" Margin="202,326,0,0" VerticalAlignment="Top" Height="38" Width="198"/>
+        <TextBox HorizontalAlignment="Left" x:Name="tb_key" Margin="210,39,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="190" Height="37"/>
+        <TextBox HorizontalAlignment="Left" x:Name="tb_content" Margin="210,105,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="190" Height="52"/>
+        <TextBox HorizontalAlignment="Left" x:Name="tb_result" Margin="210,183,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="190" Height="62"/>
+        <RadioButton x:Name="rb_crypt" Content="шифрование"   HorizontalAlignment="Left" Margin="210,259,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rb_decrypt" Content="деширофвка" HorizontalAlignment="Left" Margin="210,290,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="210,81,0,0" TextWrapping="Wrap" Text="контент" VerticalAlignment="Top" Width="190" Height="19"/>
+        <TextBlock HorizontalAlignment="Left" Margin="210,162,0,0" TextWrapping="Wrap" Text="результат шифрование" VerticalAlignment="Top" Height="16" Width="190"/>
+        <TextBlock HorizontalAlignment="Left" Margin="210,18,0,0" TextWrapping="Wrap" Text="ключ" VerticalAlignment="Top" Height="19" Width="190"/>
+        <Image Source="Resources\png-transparent-puja-dota-2-30-may-pudge-legendary-creature-ru-cartoon.png" Margin="431,34,-28,151" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.597"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+    </Grid>
+</Window>
